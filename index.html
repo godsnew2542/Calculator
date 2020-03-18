@@ -1,20 +1,130 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="./index.html">Calcutor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./Add.html">Add</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Minus.html">Minus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Multiply.html">Multiply</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Divide.html">Divide</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Percent.html">Percent</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="card text-center mt-4 col-lg-5 col-md-12">
+        <div class="card-body">
+          <h5 class="card-title">+ Add</h5>
+          <p class="card-text">การบวก คือกระบวนการทางคณิตศาสตร์ โดยการรวมสิ่งของเข้าด้วยกัน เครื่องหมายบวก (+)
+            ถูกใช้แทนความหมายของการบวกจำนวนหลายจำนวน</p>
+          <a href="./Add.html" class="btn btn-primary">Go ...</a>
+        </div>
+      </div>
+
+      <div class="col-md-1"></div>
+
+      <div class="card text-center mt-4 col-lg-5 col-md-12">
+        <div class="card-body">
+          <h5 class="card-title">- Minus</h5>
+          <p class="card-text">การลบ คือการนำจำนวนหนึ่งหักออกจากอีกจำนวนหนึ่ง หรือเป็นการเปรียบเทียบจำนวนสองจำนวน
+            ซึ่งจำนวนที่เหลือหรือจำนวนที่เป็นผลต่างของสองจำนวนนี้เรียกว่า "ผลลบ"</p>
+          <a href="./Minus.html" class="btn btn-primary">Go ...</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="card text-center mt-4 col-lg-5 col-md-12">
+        <div class="card-body">
+          <h5 class="card-title">* Multiply</h5>
+          <p class="card-text">การคูณ คือการดำเนินการทางคณิตศาสตร์อย่างหนึ่ง
+            ทำให้เกิดการเพิ่มหรือลดจำนวนจำนวนหนึ่งเป็นอัตรา การคูณเป็นหนึ่งในสี่ของการดำเนินการพื้นฐานของเลขคณิตมูลฐาน
+          </p>
+          <a href="./Multiply.html" class="btn btn-primary">Go ...</a>
+        </div>
+      </div>
+
+      <div class="col-md-1"></div>
+
+      <div class="card text-center mt-4 col-lg-5 col-md-12">
+        <div class="card-body">
+          <h5 class="card-title">/ Divide</h5>
+          <p class="card-text">การหาร หมายถึง การทำให้ลดลงทีละเท่าๆกัน หรือการลบออกด้วยจำนวนเท่าๆกัน หลายครั้ง
+            จนผลลบเป็น 0</p>
+          <a href="./Divide.html" class="btn btn-primary">Go ...</a>
+        </div>
+      </div>
+
+    </div>
+
+<div class="row">
+  <div class="col-3"></div>
+
+  <div class="card text-center mt-4 col-lg-5 col-md-12">
+    <div class="card-body">
+      <h5 class="card-title">% Percent</h5>
+      <p class="card-text">คำว่าร้อยละหมายถึงการเปรียบเทียบจำนวนที่ต้องการหากับจำนวนทั้งหมดที่กำหนดให้เป็น 100</p>
+      <p class="card-text">ใช้สัญลักษณ์ % หรือเรียกอีกอย่างหนึ่งว่าเปอร์เซ็นต์</p>
+      <a href="./Percent.html" class="btn btn-primary">Go ...</a>
+    </div>
+  </div>
+
+  <div class="col-4"></div>
+
+</div>
+
+
+
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
