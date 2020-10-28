@@ -1,5 +1,4 @@
-function Clear(ans) {
-    console.log("clear");
+function Clear() {
     document.getElementById("answer").innerHTML = '';
 }
 
